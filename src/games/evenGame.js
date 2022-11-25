@@ -1,3 +1,5 @@
+import runGame from '../index.js';
+
 const description =
   'Answer "yes" if the number is even, otherwise answer "no".';
 
