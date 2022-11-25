@@ -6,14 +6,14 @@ const runGame = (description, getRound) => {
   console.log(`Hello, ${userName}!`);
   console.log(description);
   for (let i = 1; i <= 3; i += 1) {
-    const [question, correctAnswer] = getRound();
+    const [question, rightAnswer] = getRound();
     console.log(question);
     const userAnswer = readlineSync.question('Your answer: ');
-    if (userAnswer === correctAnswer) {
+    if (userAnswer === rightAnswer) {
       console.log('Correct!');
     } else {
       console.log(
-        `'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.`
+        `'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.\nLet's try again, ${userName}!`
       );
       return;
     }
