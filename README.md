@@ -10,10 +10,8 @@
 ### asciinema brain-calc
 [![asciicast](https://asciinema.org/a/N4o7oYCaPBNbIczLc5p277CeB.svg)](https://asciinema.org/a/N4o7oYCaPBNbIczLc5p277CeB)
 
-<<<<<<< HEAD
 ### asciinema brain-gcd
 [![asciicast](https://asciinema.org/a/LjMQ4X49sJUEVENplTK7rsFNE.svg)](https://asciinema.org/a/LjMQ4X49sJUEVENplTK7rsFNE)
-=======
+
 ### asciinema brain-progression
 [![asciicast](https://asciinema.org/a/aWmYO4BBA4XZT3gOpDsKv5ieY.svg)](https://asciinema.org/a/aWmYO4BBA4XZT3gOpDsKv5ieY)
->>>>>>> 4ddfdca (feat: add brain-progression game)
