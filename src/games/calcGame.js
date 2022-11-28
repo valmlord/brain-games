@@ -6,7 +6,7 @@ const description = 'What is the result of the expression?';
 const calcRound = () => {
   const firstOperand = getRandomNum(1, 20);
   const secondOperand = getRandomNum(1, 20);
-  const operatorIndex = getRandomNum(1, 3);
+  const operatorIndex = getRandomNum(0, 2);
   const operators = ['+', '-', '*'];
   const operator = operators[operatorIndex];
   let correctAnswer = 0;
