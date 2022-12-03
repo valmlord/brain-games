@@ -1,6 +1,5 @@
 import { getRandomNum } from '../cli.js';
 import { phrases } from '../phrases.js';
-import runGame from '../index.js';
 
 const isEven = (num) => num % 2 === 0;
 
@@ -11,6 +10,4 @@ const evenRound = () => {
   return [question, correctAnswer];
 };
 
-const evenGame = () => runGame(phrases.DESCRIPTION_EVEN_GAME, evenRound);
-
-export default evenGame;
+export default evenRound;

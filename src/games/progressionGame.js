@@ -1,6 +1,4 @@
 import { getRandomNum } from '../cli.js';
-import { phrases } from '../phrases.js';
-import runGame from '../index.js';
 
 const progressionRound = () => {
   const start = getRandomNum(1, 100);
@@ -18,6 +16,4 @@ const progressionRound = () => {
   return [question, correctAnswer.toString()];
 };
 
-const progressionGame = () => runGame(phrases.DESCRIPTION_PROGRESSION_GAME, progressionRound);
-
-export default progressionGame;
+export default progressionRound;

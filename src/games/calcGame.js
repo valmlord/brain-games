@@ -1,6 +1,4 @@
 import { getRandomNum } from '../cli.js';
-import { phrases } from '../phrases.js';
-import runGame from '../index.js';
 
 const calcRound = () => {
   const firstOperand = getRandomNum(1, 20);
@@ -29,6 +27,4 @@ const calcRound = () => {
   return [question, correctAnswer.toString()];
 };
 
-const calcGame = () => runGame(phrases.DESCRIPTION_CALC_GAME, calcRound);
-
-export default calcGame;
+export default calcRound;
