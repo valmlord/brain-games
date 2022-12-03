@@ -1,7 +1,6 @@
 import { getRandomNum } from '../cli.js';
+import { phrases } from '../phrases.js';
 import runGame from '../index.js';
-
-const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (num) => {
   for (let i = 2, max = Math.sqrt(num); i <= max; i += 1) {
@@ -19,6 +18,6 @@ const primeRound = () => {
   return [question, correctAnswer];
 };
 
-const primeGame = () => runGame(description, primeRound);
+const primeGame = () => runGame(phrases.DESCRIPTION_PRIME_GAME, primeRound);
 
 export default primeGame;
